@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@200;300;500&family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 3px;
+}
+.sidebar
+{
+    background-color: rgb(52, 130, 150);
+    width:320px;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 50px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main
+{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container
+{
+    display: flex;
+}
+
+.infoContainer{
+    margin:60px 50px 50px 35px;
+    /* background-color:hsl(337, 100%, 72%); */
+    height:80vh;
+    width:70vw;
+    display:flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    align-content: center;
+    
+}
+
+.devPic img{
+    height:46vh;
+   
+}
+
+.devInfo{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.name{
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.Buttons{
+    margin-top: 16px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 5px 6px;
+    border-radius: 24px;
+    color: lightcyan;
+    background-color: rgb(45, 189, 255);
+    font-weight: bold;
+    font-size: 19px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn{
+    background-color: rgb(48, 207, 173);
+    color:darkslategrey;
+    
+}
+
+.btn sm{
+    font-size: 11px;
+    margin: 16px 0;
+    padding: 10px 16px;
+}
+.about{
+    font-size: 22px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    margin: 8px;
+}
+
+.contactform{
+    padding: 0px 180px;
+    padding-top: 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align: center;
+}
+
+.contactform h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+.contactform form div input{
+    width: 26vw;
+    border-radius: 6px;
+    margin: 5px 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 22px;
+    color: black;
+    margin: 0 5px;
+}
